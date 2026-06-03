@@ -2,7 +2,7 @@ const form = document.getElementById('bookingForm');
 const message = document.getElementById('formMessage');
 
 // Replace this placeholder with the real Revenge Health business email when ready.
-const businessEmail = 'hello@revengehealth.co';
+const businessEmail = 'capita55@gmail.com';
 
 form?.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -24,7 +24,7 @@ form?.addEventListener('submit', (event) => {
     `Package Interest: ${session}\n` +
     `Preferred Contact Date: ${date}\n\n` +
     `Goals / Notes:\n${notes}\n\n` +
-    `Reminder: Revenge Health is health coaching support only, not medical advice.`
+    `Reminder: Revenge Health provides health coaching and GLP-2/GLP-3 journey assistance only, not medical advice, medication sales, prescriptions, or dosage guidance.`
   );
 
   window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
