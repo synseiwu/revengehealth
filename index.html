@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Revenge Health | Health Coaching & Appointment Booking</title>
-  <meta name="description" content="Revenge Health is a bold, personalized health coaching brand helping clients build sustainable routines, increase energy, and book private coaching sessions online." />
+  <title>Revenge Health | Health Coaching & Wellness Support</title>
+  <meta name="description" content="Revenge Health by KYRSavageLLC offers private health and life coaching, wellness accountability, check-ins, meal planning support, and lifestyle guidance for clients building healthier routines." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -17,12 +17,13 @@
         <img src="logo.png" alt="Revenge Health logo" class="brand-logo" />
         <div>
           <span class="brand-name">Revenge Health</span>
-          <span class="brand-tag">Private Health Coaching</span>
+          <span class="brand-tag">KYRSavageLLC · Health Coaching</span>
         </div>
       </a>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Main navigation">
         <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
         <a href="#about">About</a>
         <a href="#booking">Book</a>
         <a href="#contact">Contact</a>
@@ -34,155 +35,251 @@
     <main>
       <section class="hero" id="home">
         <div class="hero-copy">
-          <p class="eyebrow">Feel stronger. Move sharper. Show up better.</p>
-          <h1>Your comeback starts with a plan that actually fits your life.</h1>
+          <p class="eyebrow">Health coaching · Accountability · Wellness support</p>
+          <h1>Build the routine your comeback deserves.</h1>
           <p class="hero-text">
-            Revenge Health offers 1:1 coaching for busy people who want more energy, better routines,
-            smarter nutrition habits, and sustainable accountability.
+            Revenge Health provides private health and life coaching for clients who want structure,
+            encouragement, meal-planning support, weight check-ins, and consistent accountability while
+            working toward healthier habits.
           </p>
 
           <div class="hero-actions">
-            <a class="button" href="#booking">Schedule a Session</a>
-            <a class="button button-secondary" href="#services">Explore Programs</a>
+            <a class="button" href="#booking">Request Coaching</a>
+            <a class="button button-secondary" href="#pricing">View Packages</a>
           </div>
 
-          <div class="hero-stats">
-            <div>
-              <strong>150+</strong>
-              <span>Client sessions coached</span>
-            </div>
-            <div>
-              <strong>92%</strong>
-              <span>Reported routine consistency</span>
-            </div>
+          <div class="hero-highlights" aria-label="Coaching highlights">
             <div>
               <strong>1:1</strong>
-              <span>Customized support</span>
+              <span>Private coaching support</span>
+            </div>
+            <div>
+              <strong>Weekly</strong>
+              <span>Check-ins and accountability</span>
+            </div>
+            <div>
+              <strong>Real life</strong>
+              <span>Nutrition and habit guidance</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-card glass-card">
-          <div class="card-badge">Now Booking</div>
-          <h2>Free Discovery Call</h2>
-          <p>Start with a 20-minute intro session to talk through your goals, blockers, and next steps.</p>
+        <aside class="hero-card glass-card">
+          <div class="card-badge">Now Accepting Clients</div>
+          <h2>Coaching-first wellness support</h2>
+          <p>
+            Start with a conversation about your goals, current routine, lifestyle, and the type of
+            support you need. Coaching is built around consistency, not perfection.
+          </p>
           <ul>
-            <li>Goal review & lifestyle audit</li>
-            <li>Custom coaching recommendation</li>
-            <li>Clear action plan to get started</li>
+            <li>Health and life coaching</li>
+            <li>Meal planning guidance</li>
+            <li>Weight and progress check-ins</li>
+            <li>Priority support available on select packages</li>
           </ul>
-          <a class="button button-full" href="#booking">Claim Your Spot</a>
-        </div>
+          <a class="button button-full" href="#booking">Start Your Intake</a>
+        </aside>
+      </section>
+
+      <section class="notice-card" aria-label="Important health notice">
+        <strong>Important:</strong>
+        Revenge Health is a health coaching service, not a medical clinic. Coaching does not replace care
+        from a primary care provider. Please keep your provider informed before making health decisions.
       </section>
 
       <section class="section" id="services">
         <div class="section-heading">
           <p class="eyebrow">Services</p>
-          <h2>Coaching built for real life, not perfection.</h2>
+          <h2>Support for clients who need a plan, reminders, and someone in their corner.</h2>
         </div>
 
         <div class="service-grid">
           <article class="service-card glass-card">
             <span class="service-icon">01</span>
-            <h3>1:1 Health Coaching</h3>
-            <p>Weekly support focused on habits, energy, recovery, routines, and realistic nutrition changes.</p>
-            <strong>$95 / session</strong>
+            <h3>Health & Life Coaching</h3>
+            <p>Private coaching focused on daily habits, motivation, consistency, wellness goals, and staying accountable.</p>
           </article>
 
           <article class="service-card glass-card">
             <span class="service-icon">02</span>
-            <h3>Nutrition Reset</h3>
-            <p>A 4-week accountability program designed to help clients simplify eating and feel more in control.</p>
-            <strong>$320 / 4 weeks</strong>
+            <h3>Meal Planning Support</h3>
+            <p>Simple meal planning guidance to help clients stay organized, make better choices, and reduce guesswork.</p>
           </article>
 
           <article class="service-card glass-card">
             <span class="service-icon">03</span>
-            <h3>Momentum Package</h3>
-            <p>For clients ready for transformation with recurring sessions, check-ins, and a stronger support system.</p>
-            <strong>$540 / 8 weeks</strong>
+            <h3>Progress Check-ins</h3>
+            <p>Regular weight-ins, follow-ups, reminders, and support to keep clients focused between appointments.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="pricing">
+        <div class="section-heading">
+          <p class="eyebrow">Packages</p>
+          <h2>Health coaching packages</h2>
+          <p>
+            These packages are written as health coaching and wellness support services. Any GLP-related support is for
+            clients already working with a qualified healthcare provider.
+          </p>
+        </div>
+
+        <div class="pricing-grid primary-pricing">
+          <article class="price-card glass-card featured-card">
+            <p class="price-label">Health Coach Only</p>
+            <h3>1 Month Coaching</h3>
+            <p class="price">$150</p>
+            <ul>
+              <li>Health and life coaching</li>
+              <li>Accountability support</li>
+              <li>Wellness routine guidance</li>
+            </ul>
+          </article>
+
+          <article class="price-card glass-card featured-card">
+            <p class="price-label">Health Coach Only</p>
+            <h3>2 Month Coaching</h3>
+            <p class="price">$325</p>
+            <ul>
+              <li>Extended coaching support</li>
+              <li>Progress check-ins</li>
+              <li>Habit and meal-planning guidance</li>
+            </ul>
+          </article>
+
+          <article class="price-card glass-card featured-card">
+            <p class="price-label">Health Coach Only</p>
+            <h3>3 Month Coaching</h3>
+            <p class="price">$435</p>
+            <ul>
+              <li>Longer-term accountability</li>
+              <li>Priority consistency support</li>
+              <li>Progress and routine tracking</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="package-panel glass-card">
+          <div class="package-header">
+            <p class="eyebrow">Additional wellness support</p>
+            <h3>GLP journey coaching support</h3>
+            <p>
+              For clients who are already under the guidance of a medical provider, Revenge Health can provide
+              coaching support around habits, nutrition, check-ins, and staying consistent.
+            </p>
+          </div>
+
+          <div class="support-grid">
+            <div class="support-column">
+              <h4>GLP Support Reference</h4>
+              <ul class="price-list">
+                <li><span>1 vial GLP reference</span><strong>$180</strong></li>
+                <li><span>2 vial GLP reference</span><strong>$360</strong></li>
+                <li><span>3 vial GLP reference</span><strong>$540</strong></li>
+              </ul>
+            </div>
+            <div class="support-column">
+              <h4>Peptide Reference</h4>
+              <ul class="price-list">
+                <li><span>1 vial peptide reference</span><strong>$80</strong></li>
+                <li><span>2 vial peptide reference</span><strong>$160</strong></li>
+                <li><span>3 vial peptide reference</span><strong>$240</strong></li>
+              </ul>
+            </div>
+            <div class="support-column">
+              <h4>Coaching Add-on</h4>
+              <ul class="price-list">
+                <li><span>1 month coaching add-on</span><strong>$75</strong></li>
+                <li><span>2 month coaching add-on</span><strong>$150</strong></li>
+                <li><span>3 month coaching add-on</span><strong>$225</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="package-panel glass-card kit-panel">
+          <div>
+            <p class="eyebrow">Complete kit support</p>
+            <h3>Wellness support kit options</h3>
+            <p>
+              Kit support may include a Bluetooth scale, sharps container, travel kit, vial box or vial caps,
+              health coaching, and priority support depending on package length.
+            </p>
+          </div>
+          <div class="kit-list">
+            <div class="kit-item muted-item">
+              <strong>1 Month</strong>
+              <span>No kit available — please do not inquire.</span>
+            </div>
+            <div class="kit-item">
+              <strong>2 Month Kit</strong>
+              <span>$575 · 2 payments available</span>
+            </div>
+            <div class="kit-item">
+              <strong>3 Month Kit</strong>
+              <span>$775 · 3 payments available</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="section split-section" id="about">
         <div>
           <p class="eyebrow">About Revenge Health</p>
-          <h2>Bold coaching for people tired of starting over.</h2>
+          <h2>Supportive coaching with a bold, no-excuses feel.</h2>
           <p>
-            Revenge Health helps clients rebuild trust with themselves through consistent, practical health habits.
-            The approach is supportive, direct, and designed around long-term change — not crash plans.
+            Revenge Health was created for clients who are ready to stop starting over and begin building a healthier
+            lifestyle with structure, compassion, and accountability.
           </p>
           <p>
-            Clients typically come in feeling overwhelmed, inconsistent, or stuck after trying too many short-term solutions.
-            Coaching focuses on simple systems that improve energy, recovery, confidence, and follow-through.
+            The focus is coaching: helping clients create realistic routines, stay consistent with nutrition goals,
+            track progress, and feel supported throughout their wellness journey.
           </p>
         </div>
 
         <aside class="glass-card promise-card">
           <h3>What clients can expect</h3>
           <ul>
-            <li>Personalized wellness strategy</li>
-            <li>Weekly accountability and check-ins</li>
-            <li>Habit coaching that works with busy schedules</li>
-            <li>Supportive, judgment-free guidance</li>
+            <li>Private coaching and wellness accountability</li>
+            <li>Meal planning and routine support</li>
+            <li>Check-ins for weight and progress</li>
+            <li>Encouragement without judgment</li>
+            <li>Clear reminders to keep your primary care provider informed</li>
           </ul>
         </aside>
-      </section>
-
-      <section class="section testimonials">
-        <div class="section-heading">
-          <p class="eyebrow">Client Wins</p>
-          <h2>What coaching can feel like.</h2>
-        </div>
-
-        <div class="testimonial-grid">
-          <blockquote class="glass-card">
-            “I stopped obsessing over being perfect and finally built routines I could actually keep.”
-            <footer>— Jordan M.</footer>
-          </blockquote>
-          <blockquote class="glass-card">
-            “My energy was better within two weeks, and I felt like I had a real plan instead of guessing.”
-            <footer>— Alex T.</footer>
-          </blockquote>
-          <blockquote class="glass-card">
-            “The accountability changed everything. Small steps turned into real momentum.”
-            <footer>— Sam R.</footer>
-          </blockquote>
-        </div>
       </section>
 
       <section class="section booking-section" id="booking">
         <div class="section-heading">
           <p class="eyebrow">Booking</p>
-          <h2>Book an appointment</h2>
-          <p>Pick a session type and send a request. This demo form uses placeholder contact details for now.</p>
+          <h2>Request coaching</h2>
+          <p>Choose the package you are interested in and send a request. The current form creates a ready-to-send email.</p>
         </div>
 
         <div class="booking-layout">
           <div class="glass-card booking-options">
-            <h3>Available Sessions</h3>
+            <h3>Popular Requests</h3>
             <div class="slot-list">
               <div class="slot-item">
                 <div>
-                  <strong>Discovery Call</strong>
-                  <span>20 minutes · Virtual</span>
+                  <strong>1 Month Health Coaching</strong>
+                  <span>Health and life coaching support</span>
                 </div>
-                <span>Free</span>
+                <span>$150</span>
               </div>
               <div class="slot-item">
                 <div>
-                  <strong>Single Coaching Session</strong>
-                  <span>50 minutes · Virtual</span>
+                  <strong>2 Month Health Coaching</strong>
+                  <span>Accountability and meal-planning guidance</span>
                 </div>
-                <span>$95</span>
+                <span>$325</span>
               </div>
               <div class="slot-item">
                 <div>
-                  <strong>Nutrition Reset Intake</strong>
-                  <span>45 minutes · Virtual</span>
+                  <strong>3 Month Health Coaching</strong>
+                  <span>Longer-term wellness support</span>
                 </div>
-                <span>$80</span>
+                <span>$435</span>
               </div>
             </div>
           </div>
@@ -201,24 +298,26 @@
               <input type="tel" name="phone" placeholder="(555) 123-4567" />
             </label>
             <label>
-              Session Type
+              Package Interest
               <select name="session" required>
                 <option value="">Choose one</option>
-                <option>Free Discovery Call</option>
-                <option>Single Coaching Session</option>
-                <option>Nutrition Reset Intake</option>
+                <option>1 Month Health Coaching - $150</option>
+                <option>2 Month Health Coaching - $325</option>
+                <option>3 Month Health Coaching - $435</option>
+                <option>GLP Journey Coaching Support</option>
+                <option>Complete Kit Support Inquiry</option>
               </select>
             </label>
             <label>
-              Preferred Date
+              Preferred Contact Date
               <input type="date" name="date" required />
             </label>
             <label>
               Goals / Notes
-              <textarea name="notes" rows="4" placeholder="What would you like help with?"></textarea>
+              <textarea name="notes" rows="4" placeholder="Tell us what kind of support you are looking for."></textarea>
             </label>
-            <button type="submit" class="button button-full">Send Booking Request</button>
-            <p class="form-note" id="formMessage">This is a demo form — submission is simulated.</p>
+            <button type="submit" class="button button-full">Send Coaching Request</button>
+            <p class="form-note" id="formMessage">This form opens your email app with the request details. Replace the email in script.js with the final business email.</p>
           </form>
         </div>
       </section>
@@ -227,17 +326,20 @@
     <footer class="footer" id="contact">
       <div>
         <h3>Revenge Health</h3>
-        <p>Private health coaching for energy, consistency, and confidence.</p>
+        <p>Private health coaching for wellness, accountability, and consistency.</p>
+        <p class="verse">Proverbs 3:27</p>
       </div>
       <div>
         <h4>Contact</h4>
-        <p>hello@revengehealth.co</p>
-        <p>(555) 847-2219</p>
+        <p>Email: <span class="placeholder">Add business email</span></p>
+        <p>Phone: <span class="placeholder">Add business phone</span></p>
       </div>
       <div>
-        <h4>Location</h4>
-        <p>Suite 204, 18 Violet Avenue</p>
-        <p>Brooklyn, NY 11211</p>
+        <h4>Disclaimer</h4>
+        <p>
+          I am a health coach, not a doctor. Coaching is for support and education only. All health decisions
+          should be discussed with your primary care provider.
+        </p>
       </div>
     </footer>
   </div>
