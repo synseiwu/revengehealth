@@ -697,3 +697,18 @@ body::before {
     width: 100%;
   }
 }
+
+/* Footer verse text */
+.verse-text {
+  margin-top: 8px;
+  max-width: 360px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.verse-text span {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
