@@ -54,7 +54,9 @@ body::before {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 20px max(16px, calc((100vw - 1180px) / 2));
   position: sticky;
   top: 0;
   z-index: 20;
@@ -218,6 +220,12 @@ body::before {
 .notice-card {
   border: 1px solid var(--panel-border);
 }
+
+.topbar {
+  border-left: 0;
+  border-right: 0;
+}
+
 
 .hero-highlights div {
   padding: 18px;
