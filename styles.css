@@ -656,3 +656,44 @@ body::before {
     grid-template-columns: 1fr;
   }
 }
+
+/* Pricing note final containment fix */
+.pricing-section .pricing-note.glass-card {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 18px;
+  width: 100%;
+  max-width: 100%;
+  margin: 22px 0 0;
+  padding: 28px 30px !important;
+  overflow: visible;
+}
+
+.pricing-section .pricing-note.glass-card p {
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.55;
+  max-width: 100%;
+}
+
+.pricing-section .pricing-note.glass-card .button {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 !important;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+}
+
+@media (max-width: 700px) {
+  .pricing-section .pricing-note.glass-card {
+    padding: 22px 20px !important;
+  }
+
+  .pricing-section .pricing-note.glass-card .button {
+    width: 100%;
+  }
+}
