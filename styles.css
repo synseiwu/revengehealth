@@ -188,7 +188,7 @@ body::before {
 .price-card li,
 .notice-card,
 .price-list span,
-.kit-item span {
+.tools-item span {
   color: var(--muted);
 }
 
@@ -386,7 +386,7 @@ body::before {
 }
 
 .price-list li,
-.kit-item {
+.tools-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -396,29 +396,29 @@ body::before {
 }
 
 .price-list li:last-child,
-.kit-item:last-child {
+.tools-item:last-child {
   border-bottom: 0;
 }
 
 .price-list strong,
-.kit-item strong {
+.tools-item strong {
   color: var(--aqua);
   white-space: nowrap;
 }
 
-.kit-panel {
+.tools-panel {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 22px;
   align-items: center;
 }
 
-.kit-list {
+.tools-list {
   display: grid;
   gap: 10px;
 }
 
-.kit-item {
+.tools-item {
   padding: 16px;
   border-radius: 18px;
   background: rgba(255,255,255,0.035);
@@ -550,7 +550,7 @@ body::before {
   .service-grid,
   .pricing-grid,
   .support-grid,
-  .kit-panel,
+  .tools-panel,
   .footer {
     grid-template-columns: 1fr;
   }
@@ -593,7 +593,7 @@ body::before {
   }
 
   .price-list li,
-  .kit-item,
+  .tools-item,
   .slot-item {
     align-items: flex-start;
     flex-direction: column;
