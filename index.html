@@ -29,7 +29,7 @@
         <a href="#contact">Contact</a>
       </nav>
 
-      <a class="button button-small" href="#booking">Book Now</a>
+      <a class="button button-small" href="https://calendly.com/capita55/30min" target="_blank" rel="noopener">Book Consultation</a>
     </header>
 
     <main>
@@ -44,7 +44,7 @@
           </p>
 
           <div class="hero-actions">
-            <a class="button" href="#booking">Request Coaching</a>
+            <a class="button" href="https://calendly.com/capita55/30min" target="_blank" rel="noopener">Book Free Consultation</a>
             <a class="button button-secondary" href="#pricing">View Packages</a>
           </div>
 
@@ -77,7 +77,7 @@
             <li>Weight and progress check-ins</li>
             <li>Priority support available on select packages</li>
           </ul>
-          <a class="button button-full" href="#booking">Start Your Intake</a>
+          <a class="button button-full" href="https://calendly.com/capita55/30min" target="_blank" rel="noopener">Start Your Intake</a>
         </aside>
       </section>
 
@@ -252,14 +252,21 @@
       <section class="section booking-section" id="booking">
         <div class="section-heading">
           <p class="eyebrow">Booking</p>
-          <h2>Request coaching</h2>
-          <p>Choose the package you are interested in and send a request. The current form creates a ready-to-send email.</p>
+          <h2>Schedule your free wellness consultation</h2>
+          <p>Start with a free 30-minute consultation through Calendly. Choose a time, answer a few intake questions, and Revenge Health will follow up from there.</p>
         </div>
 
         <div class="booking-layout">
           <div class="glass-card booking-options">
             <h3>Popular Requests</h3>
             <div class="slot-list">
+              <div class="slot-item">
+                <div>
+                  <strong>Free Wellness Consultation</strong>
+                  <span>30-minute intro call through Calendly</span>
+                </div>
+                <span>Free</span>
+              </div>
               <div class="slot-item">
                 <div>
                   <strong>1 Month Health Coaching</strong>
@@ -284,41 +291,16 @@
             </div>
           </div>
 
-          <form class="glass-card booking-form" id="bookingForm">
-            <label>
-              Full Name
-              <input type="text" name="name" placeholder="Your name" required />
-            </label>
-            <label>
-              Email Address
-              <input type="email" name="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              Phone Number
-              <input type="tel" name="phone" placeholder="(555) 123-4567" />
-            </label>
-            <label>
-              Package Interest
-              <select name="session" required>
-                <option value="">Choose one</option>
-                <option>1 Month Health Coaching - $150</option>
-                <option>2 Month Health Coaching - $325</option>
-                <option>3 Month Health Coaching - $435</option>
-                <option>GLP Journey Coaching Support</option>
-                <option>Complete Kit Support Inquiry</option>
-              </select>
-            </label>
-            <label>
-              Preferred Contact Date
-              <input type="date" name="date" required />
-            </label>
-            <label>
-              Goals / Notes
-              <textarea name="notes" rows="4" placeholder="Tell us what kind of support you are looking for."></textarea>
-            </label>
-            <button type="submit" class="button button-full">Send Coaching Request</button>
-            <p class="form-note" id="formMessage">This form opens your email app with the request details. Replace the email in script.js with the final business email.</p>
-          </form>
+          <div class="glass-card booking-form booking-cta-card">
+            <p class="eyebrow">Ready to start?</p>
+            <h3>Book directly on Calendly</h3>
+            <p>
+              The consultation calendar handles available times, client contact details, and intake questions,
+              so clients can schedule without needing to text back and forth first.
+            </p>
+            <a class="button button-full" href="https://calendly.com/capita55/30min" target="_blank" rel="noopener">Book Free Consultation</a>
+            <p class="form-note">Payment is not collected for this free consultation. Paid plans can be handled after the call through Cash App or Stripe invoice.</p>
+          </div>
         </div>
       </section>
     </main>
